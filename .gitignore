@@ -1,0 +1,29 @@
+# Sensitive files - NEVER commit these
+config/.env
+config/*.key
+config/api-keys.json
+memory/*.db
+memory/*.sqlite
+memory/*.sqlite3
+
+# Node modules
+node_modules/
+package-lock.json
+
+# System files
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+
+# Backup files
+*.backup
+*.bak
